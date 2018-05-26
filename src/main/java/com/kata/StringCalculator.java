@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class StringCalculator {
 
-    private static final int VALOR_STRING_VAZIA = 0;
+    private static final int RESULT_EMPTY_STRING = 0;
 
     public int calcular(String numeros) {
-        int resultado = VALOR_STRING_VAZIA;
+        int resultado = RESULT_EMPTY_STRING;
         
         if(numeros == null) {
         	throw new IllegalArgumentException();

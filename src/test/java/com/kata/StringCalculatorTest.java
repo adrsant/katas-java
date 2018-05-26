@@ -3,7 +3,7 @@ package com.kata;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class CalculadoraStringTest {
+public class StringCalculatorTest {
 
     @Test
     public void when_calculate_empty_string(){
